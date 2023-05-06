@@ -1,0 +1,99 @@
+.App {
+  display: block;
+  min-height: 100vh;
+  min-width: 280px;
+  .App-children {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
+    section {
+      min-height: 600px;
+      width: 100%;
+      border: solid white 1px;
+    }
+  }
+}
+
+/* text sizes throughout the website */
+h1 {
+  font-size: 50px;
+}
+
+h2,
+svg {
+  font-size: 30px;
+  font-weight: 100;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+h3,
+button,
+#lg-txt,
+.btn {
+  font-size: 25px;
+}
+
+h4,
+h5,
+a,
+p,
+li,
+section,
+input,
+textarea,
+textarea::placeholder {
+  font-size: 18px;
+}
+
+// /* resize h2 under md screen */
+// @media only screen and (max-width: 768px) {
+//   h2 {
+//     font-size: 30px;
+//   }
+// }
+
+/* resize h1, lgtxt & h2 under sm screen */
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2,
+  #lg-txt,
+  h3,
+  button,
+  .btn {
+    font-size: 18px;
+  }
+
+  h4,
+  h5,
+  a,
+  p,
+  li,
+  section,
+  input,
+  textarea,
+  textarea::placeholder {
+    font-size: 16px;
+  }
+}
+
+/* main button stylings */
+button {
+  cursor: pointer;
+}
+
+button:hover > .icon {
+  color: gold;
+}
+
+/* main Link stylings */
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
