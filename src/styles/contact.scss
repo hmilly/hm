@@ -1,0 +1,24 @@
+@mixin media-ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  li {
+    display: flex;
+    text-decoration: none;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      padding: 5px;
+      &:hover {
+        background: rgba(128, 0, 128, 0.59);
+        transition: all 0.2s ease 0s;
+      }
+    }
+  }
+}
+
+#contact {
+  @include media-ul;
+}

@@ -1,0 +1,26 @@
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  div.profile-info {
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    width: 90%;
+    gap: 15px;
+    h1 {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  div.profile-contact {
+    display: flex;
+    width: 90%;
+    ul {
+      width: 100px;
+      justify-content: space-between;
+    }
+  }
+}
