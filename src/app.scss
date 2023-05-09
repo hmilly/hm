@@ -2,15 +2,15 @@
   display: block;
   min-height: 100vh;
   min-width: 280px;
-  .App-children {
+  main {
     margin-top: 72px;
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
     section {
+      border: solid white 1px;
       min-height: 600px;
       width: 100%;
-      border: solid white 1px;
+
     }
   }
 }
@@ -56,7 +56,7 @@ textarea::placeholder {
 // }
 
 /* resize h1, lgtxt & h2 under sm screen */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 576px) {
   h1 {
     font-size: 35px;
   }

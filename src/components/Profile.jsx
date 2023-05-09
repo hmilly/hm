@@ -1,17 +1,17 @@
 import "../styles/profile.scss";
 import Contact from "./Contact";
+import profile from "../images/profile.jpg";
 
 const Profile = () => {
   return (
     <section id="profile">
-      <div className="profile-info">
+      <aside className="profile-info">
         <p id="lg-txt">Hi, my name is</p>
         <h1>Holly Millard</h1>
         <h2>Frontend developer</h2>
-      </div>
-      <div className="profile-contact">
         <Contact />
-      </div>
+      </aside>
+        <img src={profile} alt="page owner" />
     </section>
   );
 };
