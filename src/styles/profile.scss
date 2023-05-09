@@ -1,26 +1,32 @@
 #profile {
+  background-image: url("../images/profile-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-
-  div.profile-info {
+  align-items: center;
+  justify-content: space-evenly;
+  aside {
     display: flex;
     flex-direction: column;
-    height: 175px;
-    width: 90%;
-    gap: 15px;
+    gap: 10px;
     h1 {
       font-weight: bold;
       text-decoration: underline;
     }
-  }
-  div.profile-contact {
-    display: flex;
-    width: 90%;
     ul {
       width: 100px;
       justify-content: space-between;
     }
+  }
+  img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #profile > img {
+    display: none;
   }
 }
