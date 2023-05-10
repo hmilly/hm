@@ -1,21 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Gill Sans", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px;
+  background-color: rgb(35, 35, 35);
+  scroll-behavior: smooth;
+  color: #f9e7ff;
+  text-shadow: 4px 2px 5px rgba(0, 0, 0, 1);
+}
+
 .App {
-  display: block;
   min-height: 100vh;
   min-width: 280px;
   main {
-    margin-top: 72px;
+    padding-top: 72px;
     display: flex;
     flex-direction: column;
     section {
-      border: solid white 1px;
+      h2 {
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+      }
       min-height: 600px;
       width: 100%;
-
     }
   }
 }
 
 /* text sizes throughout the website */
+
 h1 {
   font-size: 50px;
 }
@@ -25,37 +47,19 @@ svg {
   font-size: 30px;
   font-weight: 100;
 }
-h2 {
-  text-transform: uppercase;
-}
 
 h3,
 button,
-#lg-txt,
-.btn {
+#lg-txt {
   font-size: 25px;
 }
 
-h4,
-h5,
-a,
 p,
-li,
-section,
-input,
-textarea,
-textarea::placeholder {
+.nostyle_btn {
   font-size: 18px;
 }
 
-// /* resize h2 under md screen */
-// @media only screen and (max-width: 768px) {
-//   h2 {
-//     font-size: 30px;
-//   }
-// }
-
-/* resize h1, lgtxt & h2 under sm screen */
+/* resize text under sm screen */
 @media only screen and (max-width: 576px) {
   h1 {
     font-size: 35px;
@@ -65,35 +69,11 @@ textarea::placeholder {
   #lg-txt,
   h3,
   button,
-  .btn {
+  .nostyle_btn {
     font-size: 18px;
   }
 
-  h4,
-  h5,
-  a,
-  p,
-  li,
-  section,
-  input,
-  textarea,
-  textarea::placeholder {
+  p {
     font-size: 16px;
   }
-}
-
-/* main button stylings */
-button {
-  cursor: pointer;
-}
-
-button:hover > .icon {
-  color: gold;
-}
-
-/* main Link stylings */
-a,
-a:visited,
-a:active {
-  text-decoration: none;
 }

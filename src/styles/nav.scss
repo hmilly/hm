@@ -1,0 +1,21 @@
+@use "contact";
+
+header {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom: solid grey 1px;
+    padding: 2px 0;
+    max-width: 1200px;
+    ul {
+      @include contact.media-ul;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

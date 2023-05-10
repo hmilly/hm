@@ -1,0 +1,16 @@
+footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  div {
+    flex: 1;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    &:last-child {
+      justify-content: end;
+    }
+  }
+}
