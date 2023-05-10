@@ -1,4 +1,4 @@
-#profile {
+#profile-container {
   background-image: url("../images/profile-bg.jpg");
   background-size: cover;
   background-position: bottom;
@@ -6,12 +6,17 @@
   align-items: center;
   justify-content: space-evenly;
   aside {
+    background-color: rgba(18, 0, 28, 0.5);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    padding: 15px 0;
     h1 {
       font-weight: bold;
       text-decoration: underline;
+    }
+    h2 {
+      text-decoration: none;
     }
     ul {
       width: 100px;
@@ -26,7 +31,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #profile > img {
+  #profile-container > img {
     display: none;
   }
 }

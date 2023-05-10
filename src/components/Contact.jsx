@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <ul id="contact">
+    <ul id="contact-container">
       <li>
         <a href="https://github.com/hmilly" target="_blank" rel="noreferrer">
           <BsGithub />
