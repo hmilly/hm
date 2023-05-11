@@ -10,11 +10,15 @@ const Projects = () => {
           <li key={i} className="project-wrapper">
             <h3>{p.title}</h3>
             <div className="project-img">
-              <img src={p.image} alt={`website template showing ${p.title}`} />
+              <img
+                src={p.image}
+                alt={`website template showing ${p.title}`}
+                loading="lazy"
+              />
             </div>
             <div className="project-body">
               <p>{p.description}</p>
-              
+
               <p>{p.comments}</p>
               {p.link && (
                 <button

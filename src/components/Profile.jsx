@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <section id="profile-container">
       <aside>
-        <p id="lg-txt">Hi, my name is</p>
+        <p className="lg-txt">Hi, my name is</p>
         <h1>Holly Millard</h1>
         <h2>Frontend developer</h2>
         <Contact />

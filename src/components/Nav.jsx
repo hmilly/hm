@@ -6,19 +6,13 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <a href="#profile-container" id="lg-txt">
-            About
-          </a>
+          <a href="#profile-container">About</a>
         </li>
         <li>
-          <a href="#stack-container" id="lg-txt">
-            Stack
-          </a>
+          <a href="#stack-container">Stack</a>
         </li>
         <li>
-          <a href="#projects-container" id="lg-txt">
-            Projects
-          </a>
+          <a href="#projects-container">Projects</a>
         </li>
       </ul>
       <Contact />
