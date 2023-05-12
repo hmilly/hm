@@ -20,7 +20,7 @@
       border: solid 3px rgb(86, 1, 86);
       background-color: #26003be2;
       border-radius: 4px;
-      padding: 10px;
+      padding: 5px;
       text-align: center;
       h3 {
         padding: 10px 0;
@@ -35,10 +35,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr auto;
-        padding: 0 5px;
+
         gap: 10px;
         p {
-          padding: 10px;
+          padding: 10px 0;
           grid-column-start: 1;
           grid-column-end: 3;
         }
