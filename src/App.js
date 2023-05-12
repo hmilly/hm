@@ -2,7 +2,7 @@ import "./app.scss";
 import Nav from "./components/Nav";
 import Profile from "./components/Profile";
 import About from "./components/About";
-import Stack from "./components/Stack";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
@@ -15,7 +15,7 @@ function App() {
       <main>
         <Profile />
         <About />
-        <Stack />
+        <Skills />
         <Projects />
       </main>
       <Footer />

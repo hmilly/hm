@@ -9,7 +9,7 @@ const Nav = () => {
           <a href="#profile-container">About</a>
         </li>
         <li>
-          <a href="#stack-container">Stack</a>
+          <a href="#skills-container">Skills</a>
         </li>
         <li>
           <a href="#projects-container">Projects</a>

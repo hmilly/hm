@@ -1,4 +1,4 @@
-import "../styles/stack.scss";
+import "../styles/skills.scss";
 import {
   SiHtml5,
   SiCss3,
@@ -27,9 +27,9 @@ import {
 
 import { SiPhp, SiWordpress } from "react-icons/si";
 
-const Stack = () => {
+const Skills = () => {
   return (
-    <section id="stack-container">
+    <section id="skills-container">
       <div>
         <h3>Most experienced:</h3>
         <ul>
@@ -137,4 +137,4 @@ const Stack = () => {
   );
 };
 
-export default Stack;
+export default Skills;
