@@ -21,9 +21,9 @@ export const projectData = [
     website: "https://kent-cleaning-pilgrims.vercel.app/",
     code: "https://github.com/hmilly/kent-cleaning-pilgrims",
     title: "Kent Cleaning Pilgrims",
-    description: "This site uses React and SASS",
+    description: "Made for a client, this site uses React and SASS",
     comments:
-      "A website for a cleaning company which is based in Kent. I obtained the original template from the client and here is the outcome",
+      "A website for a cleaning company which is based in Kent. I obtained the original template from the client and this is the outcome",
     image: KCS,
   },
   {
@@ -41,7 +41,8 @@ export const projectData = [
     title: "Portfolio website",
     description:
       "I used Gatsby and styled components to create this static site",
-    comments: "I have since extended this site with the Artsy social app.",
+    comments:
+      "This was my first / original portfolio site which I have since retired",
     image: Hm,
   },
   {
