@@ -12,16 +12,16 @@ export const projectData = [
     code: "https://github.com/hmilly/artsy",
     title: "Artsy social",
     description:
-      "I created this site with React, bootstrap and firebase. This project has allowed me to get to grips with bootstrap and provided me with range of skills for firebase too, including how to authenticate users and generally use the DB",
+      "I created this site with React, bootstrap and firebase. This project has allowed me to get to grips with bootstrap and provided me with range of skills for firebase too, including how to authenticate users and use the DB",
     comments:
-      "This site allows artists to sign up and upload a body of work. Other users can also sign up to browse the site, allowing them to register interests in pieces of art",
+      "This is a social media site which allows artists to upload a body of work. Other interested users can also sign up to browse the site, allowing them to register their interest in pieces of art",
     image: Artsy,
   },
   {
     website: "https://kent-cleaning-pilgrims.vercel.app/",
     code: "https://github.com/hmilly/kent-cleaning-pilgrims",
     title: "Kent Cleaning Pilgrims",
-    description: "Made for a client, this site uses React and SASS",
+    description: "This site uses React and SASS and was made for a client",
     comments:
       "A website for a cleaning company which is based in Kent. I obtained the original template from the client and this is the outcome",
     image: KCS,
@@ -32,7 +32,7 @@ export const projectData = [
     title: "Aldens art",
     description:
       "This is an app created using Svelte as I wanted to try it out - styled using CSS",
-    comments: "This is the precursor to the Artsy site above.",
+    comments: "This is the precursor to the Artsy social site above.",
     image: Art,
   },
   {
@@ -50,7 +50,7 @@ export const projectData = [
     code: "https://github.com/hmilly/recipe-book",
     title: "Takeaway site",
     description:
-      "This was the first website I made using React during my course in 2020. It uses SASS for styling",
+      "This was the first website I made using React during my web dev course. Styled using SASS",
     comments: "The template used can be found on figma here: ",
     link: "https://www.figma.com/file/VQz2NrvK8lPykD91kedoKJ/e-commerce_2",
     image: Menu,
@@ -71,8 +71,7 @@ export const projectData = [
     title: "'Who wants to be a Millionaire?' app",
     description:
       "I created this app with Next.JS and Tailwind. There is an internal database of questions which is suited to a non-technical user, as they just follow the database formatting to input their own range of questions",
-    comments:
-      "I learned Tailwind making this app. Later I’d like to improve the functionality of the helper buttons and implement other options like the real game does.",
+    comments: "I learned Tailwind making this app.",
     image: Quiz,
   },
 ];

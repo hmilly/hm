@@ -7,7 +7,7 @@ const About = () => {
         <div>
           <h2>About</h2>
           <p>
-            I'm an enthusiastic and skilled <span>frontend developer</span> who
+            I'm an enthusiastic and skilled frontend developer who
             also possesses a wealth of transferable skills and a passion for
             digital innovation.
           </p>
@@ -17,7 +17,7 @@ const About = () => {
             last few years.
           </p>
           <p>
-            I've mainly been working with <span>React</span>, but I'm open to so
+            I've mainly been working with React, but I'm open to so
             much more! I’m currently seeking my first commercial role within
             frontend development, and am open to remote UK positions or
             hybrid office-based opportunities within the Greater London area.

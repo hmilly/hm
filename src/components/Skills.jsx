@@ -25,7 +25,7 @@ import {
   SiJest,
 } from "react-icons/si";
 
-import { SiPhp, SiWordpress } from "react-icons/si";
+import { SiPython, SiWordpress } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -121,11 +121,11 @@ const Skills = () => {
         </ul>
       </div>
       <div>
-        <h3>Looking to learn:</h3>
+        <h3>Currently looking into:</h3>
         <ul>
           <li>
-            <SiPhp />
-            <p>PHP</p>
+            <SiPython />
+            <p>Python</p>
           </li>
           <li>
             <SiWordpress />
